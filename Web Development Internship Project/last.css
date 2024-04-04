@@ -1,0 +1,305 @@
+/* Styles for header */
+.header {
+    background-color: #f8f9fa; /* Change as needed */
+    padding: 20px 0;
+}
+
+.container {
+    width: 90%; /* Adjust as needed */
+    margin: 0 auto;
+   
+}
+
+.logo {
+    margin: 0;
+    font-size: 24px; /* Adjust as needed */
+}
+
+.nav {
+    margin-top: 10px; /* Adjust as needed */
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-item a {
+    color: #333; /* Change as needed */
+    text-decoration: none;
+}
+
+.nav-item a:hover {
+    color: #070707; /* Change as needed */
+}
+
+/* Styles for search container */
+.search-container {
+    position: relative;
+    float: right; /* Align to the right */
+    padding-right: 120px;
+    border-radius: 2px; /* Add missing px unit */
+}
+
+.form-control {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 120px; /* Adjust width as needed */
+    height: 30px; /* Adjust height as needed */
+    border-radius: 2px; /* Add missing px unit */
+    border: 1px solid #ccc; /* Set border color to grey */
+    padding: 8px 12px; /* Adjust padding as needed */
+}
+
+.icon-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+/* Styles for file upload button */
+.hidden {
+    display: none;
+}
+
+.upload-container {
+    position: relative;
+}
+
+.upload-button {
+    display: inline-block;
+    background-color: #e01976; /* Change as needed */
+    color: #fff; /* Change as needed */
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#file-upload {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Styles for main content */
+.main-content {
+    padding: 20px 0;
+}
+
+/* Styles for footer */
+.footer {
+    background-color: #333; /* Change as needed */
+    color: #fff; /* Change as needed */
+    padding: 20px 0;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.footer-links a {
+    color: #fff; /* Change as needed */
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #ccc; /* Change as needed */
+}
+
+.preview-image {
+    max-width: 100px; /* Adjust as needed */
+    max-height: 100px; /* Adjust as needed */
+    margin-top: 10px; /* Adjust as needed */
+}
+
+.round-preview {
+    width: 35px; /* Adjust as needed */
+    height: 35px; /* Adjust as needed */
+    border-radius: 50%; /* Make the preview container round */
+    overflow: hidden; /* Hide overflow content (if any) outside the round shape */
+    background-color: rgb(126, 127, 128);
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-right: 7px;
+}
+
+.round-preview img {
+    object-fit: cover; /* Scale the image to cover the container while preserving aspect ratio */
+    border-radius: 0%; /* Ensure the image itself is also round */
+}
+
+.search-container {
+    position: relative;
+    display: inline-block; /* Ensure the container doesn't take the full width */
+}
+
+.search-icon {
+    position: absolute;
+    left: 5px; /* Adjust as needed */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px; /* Adjust as needed */
+    height: 20px; /* Adjust as needed */
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREnMbp1y6L1tV00686fxMbv6x_eOuSdlpNNQ&s');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1; /* Ensure the icon is above the input */
+}
+
+.form-control {
+    padding-left: 30px; /* Adjust to accommodate the icon */
+}
+
+.main-content {
+    text-align: center; /* Center content horizontally */
+    padding-top: 20px; /* Add some space at the top */
+}
+
+.container {
+    position: relative; /* Required for absolute positioning */
+}
+
+.content-center {
+    margin-bottom: 20px; /* Add space below the content */
+}
+
+.email-image {
+    width: 100px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px auto; /* Center the image horizontally and add some space around it */
+}
+
+.email-image img {
+    max-width: 100%; /* Ensure the image fits within the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.email-image {
+    width: 150px; /* Adjust width as needed */
+    height: 150px; /* Adjust height as needed */
+    margin: 20px auto; /* Center the image horizontally and add some space around it */
+}
+
+.email-image img {
+    width: 100%; /* Ensure the image fills the container */
+    height: 100%; /* Ensure the image fills the container */
+}
+
+.site-footer {
+    background-color: #333; /* Change background color as needed */
+    color: #fff; /* Change text color as needed */
+    padding: 50px 0; /* Adjust padding as needed */
+}
+
+.site-footer a {
+    color: #fff; /* Change link color as needed */
+    text-decoration: none;
+}
+
+.site-footer a:hover {
+    color: #ccc; /* Change link color on hover as needed */
+}
+
+.site-footer h3 {
+    color: #fff; /* Change heading color as needed */
+    font-size: 18px; /* Adjust heading font size as needed */
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.site-footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.site-footer ul li {
+    margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.footer-social a {
+    display: inline-block;
+    width: 40px; /* Adjust social icon width as needed */
+    height: 40px; /* Adjust social icon height as needed */
+    background-color: #fff; /* Change social icon background color as needed */
+    color: #333; /* Change social icon color as needed */
+    line-height: 40px; /* Center the icon vertically */
+    text-align: center; /* Center the icon horizontally */
+    border-radius: 50%; /* Make the icon circular */
+    margin-right: 10px; /* Adjust margin between social icons as needed */
+}
+
+.footer-social a:hover {
+    background-color: #0f0f0f; /* Change social icon background color on hover as needed */
+}
+
+.text-center {
+    text-align: center;
+}
+
+.copyright {
+    margin-top: 30px; /* Adjust margin as needed */
+    font-size: 14px; /* Adjust font size as needed */
+}
+
+/* Media queries for mobile responsiveness */
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 100%; /* Adjust container width for smaller screens */
+    }
+
+    .nav-item {
+        display: block; /* Display each nav item in a separate block */
+        margin-right: 0; /* Remove right margin */
+        margin-bottom: 10px; /* Add bottom margin to separate items */
+    }
+
+    .search-container {
+        float: none; /* Remove float */
+        padding-right: 0; /* Remove right padding */
+        margin-top: 10px; /* Add top margin to separate from nav items */
+    }
+
+    .form-control {
+        width: calc(100% - 40px); /* Adjust width for search input */
+    }
+
+    .icon-container {
+        position: static; /* Remove absolute positioning */
+        display: inline-block; /* Display as inline-block */
+        margin-left: 10px; /* Add left margin */
+    }
+
+    .icon {
+        margin-left: 0; /* Remove left margin */
+    }
+}

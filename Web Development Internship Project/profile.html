@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="profile.css">
+  <title>Profile</title>
+</head>
+<body >
+    <form>
+        <div class="profile">
+            <p style="font-family: cursive; color: #d54f6a;font-weight: bold;"class="right-corner">dribbble</p>
+            <style>
+                .right-corner {
+                position: absolute;
+                 top: 5px;
+                 left: 50px;
+                }
+
+            </style>
+            <h1>Welcome! Let's create your profile</h1>
+            <p style="color: grey;">Let others get to know you better! You can do these later</p>
+            <div class="avatar-upload">
+              <label for="avatar" style="font-weight: bold; padding-right: 180px;">Add an avatar</label>
+             
+              <div class="column">
+              
+                <div class="avatar-preview">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="#ccc" class="camera-icon">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M12 9c1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3 1.34 3 3 3zm8-6h-3c-.55 0-1 .45-1 1s.45 1 1 1h3c.55 0 1-.45 1-1s-.45-1-1-1zM21 4h-2v-.91c0-.45-.54-.67-.85-.35l-2.27 2.27C14.54 5.16 13.8 5 13 5s-1.54.16-2.27.45L8.85 3.74c-.31-.31-.85-.09-.85.35V4H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-9 12c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z"/>
+                    </svg>
+
+                    <img id="avatar-preview" src="#">
+                </div>
+                <div class="input-group">
+                <div class="row">
+                    <label class="choose-file-label" for="avatar">Choose File</label>
+               
+                    <input type="file" id="avatar" accept="image/*">
+                    <span id="file-name"></span>
+                </div>
+                <div style="color: gray;"> 
+                  > or choose one of our defaults
+                </div>
+            </div>
+               
+               
+            </div>
+            </div>
+            <div class="location">
+              <label>Add your location</label>
+              <input type="text" id="location" placeholder="Enter your location">
+            </div>
+            <button id="nextBtn"class="pink-button"  ><a href="details.html"style="color: aliceblue;">Next</a></button>
+          </div>
+        
+          <script src="profile.js"></script>
+    </form>
+  
+</body>
+</html>

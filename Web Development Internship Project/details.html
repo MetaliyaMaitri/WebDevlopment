@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="details.css">
+    <title>Dribbble Example</title>
+</head>
+<body>
+    <div class="container">
+        <!-- <p style="font-family: cursive; color: #d54f6a;font-weight: bold;"class="right-corner">Dribbble
+            <span class="back-button">&lt;</span>
+        </p> -->
+        <p class="right-corner">
+            dribbble
+            <span class="back-button"><a href="profile.html">&lt;</a></span>
+        </p>
+        <style>
+            .right-corner {
+            position: absolute;
+             top: 5px;
+             left: 50px;
+            }
+
+        </style>
+        <h1>What brings you to Dribbble?</h1>
+        <div style="color: grey; font-size: small;">Select the options that best describe you.Don't worry ,you can explore other option later"</option></div>
+        <div class="options">
+            <div class="option designer-sharing"onclick="selectOption('designerSharing')">
+             I'm a designer looking to share my work
+            </div>
+           
+            <div class="option hiring-designer" onclick="selectOption('hiringDesigner')">
+                I'm looking to hire a designer
+            </div>
+            <div class="option design-inspiration" onclick="selectOption('designInspiration')">
+                I'm looking for design inspiration
+            </div>
+        </div>
+        <div style="font-weight: bold;"> Anything else? You can select multiple</div>
+        <button id="nextButton" style="background-color: #ff69b4; color: white; padding: 10px 20px; border: none; border-radius: 5px; margin-top: 10px;"><a href="last.html" style="color: aliceblue;"> Finish</a></button>
+
+    </div>
+    <script>
+        function selectOption(option) {
+            console.log("Option selected:", option);
+        }
+    </script>
+</body>
+</html>

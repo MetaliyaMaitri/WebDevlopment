@@ -1,0 +1,83 @@
+/* Common styles for body and container */
+body, .container {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    flex-direction: column;
+}
+
+.container {
+    margin-top: 20px; /* Add margin to separate from the top */
+}
+
+/* Styles for options */
+.options {
+    display: flex;
+    flex-wrap: wrap; /* Allow options to wrap on smaller screens */
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.option {
+    background-color: #f4f4f4;
+    border: 0.9px solid #ccc;
+    padding: 10px 20px;
+    margin: 0 10px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 10px; /* Add border radius for options */
+    width: 250px; /* Set a fixed width for options */
+}
+
+/* Background images for options */
+.designer-sharing, .hiring-designer, .design-inspiration {
+    background-size: cover;
+    background-position: center;
+    color: #0d0d0d;
+    height: 300px; /* Adjust the height of the options */
+    background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQupzy6eT-kCNUuHQCIOA3KOumqzDdg5caOQR90srtMbqARC3lU');
+}
+
+/* Hover effect */
+.option:hover {
+    background-color: #ddd;
+    box-shadow: 0 0 0 1px #df1163; /* Add a shadow effect to mimic a border */
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 600px) {
+    .option {
+        width: 100%; /* Set options to full width on smaller screens */
+        margin: 0 0 10px; /* Adjust margin for smaller screens */
+    }
+}
+.right-corner {
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    font-family: cursive;
+    color: #d54f6a;
+    font-weight: bold;
+}
+
+.back-button {
+    color: grey;
+    background-color: lightgrey;
+    font-size: large;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background-color: darkgrey;
+}

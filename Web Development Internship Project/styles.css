@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.image-column {
+  flex:  1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-column img {
+  max-width: 500%;
+  max-height: 100%;
+}
+
+.form-column {
+  flex: 1;
+  padding: 200px;
+  background-color: #fff;
+  border-radius: 0px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-column h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.column:last-child {
+  margin-right: 0;
+}
+
+.input-group label {
+  margin-bottom: 5px;
+}
+
+
+.input-group input[type="email"],
+.input-group input[type="password"] {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.input-group input[type="text"]{
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.input-group button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.input-group button:hover {
+  background-color: #0056b3;
+}
+
+.form-column p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form-column p a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.form-column p a:hover {
+  text-decoration: underline;
+}
+.column {
+  flex: 1;
+  margin-right: 50px;
+}
+
+.column:last-child {
+  margin-right: 0;
+}
+.form-column {
+    position: relative;
+}
+
+.left-corner {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.pink-button {
+    background-color: rgb(137, 35, 52);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.pink-button:hover {
+    background-color: #a60053; /* Adjust hover color */
+}
+.form-column {
+  position: relative;
+}
+
+.left-corner {
+  position: absolute;
+  top: 10px;
+  left: 650px;
+}
+
+.pink-button {
+  background-color: pink;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pink-button:hover {
+  background-color: #ff69b4; /* Adjust hover color */
+}

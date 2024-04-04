@@ -1,0 +1,183 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  form {
+    height: 100%;
+  }
+  
+  .profile {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .profile h1 {
+    font-size: 38px; /* Increase font size */
+    margin-top: -90px;
+  }
+  
+  .profile p {
+    font-size: 18px; /* Increase font size */
+    margin-bottom: 20px;
+  }
+  
+  .avatar-upload {
+    margin-bottom: 20px;
+  }
+  .avatar-upload label {
+    display: block;
+    margin-bottom: 5px;
+   margin-top: 10px; /* Add padding to the top */
+    font-weight: bold;
+  }
+  
+  .avatar-upload label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .avatar-upload input[type="file"] {
+    display: none;
+  }
+  
+  .column {
+    display: flex;
+    align-items: center;
+  }
+  
+  .avatar-preview {
+    width: 120px; /* Increase avatar size */
+    height: 120px; /* Increase avatar size */
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px dashed #ccc;
+    margin-right: 10px;
+    position: relative;
+  }
+  
+  .avatar-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .choose-file-label {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .choose-file-label:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .location {
+    margin-bottom: 20px;
+  }
+  
+  .location label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .location input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    display: block;
+    width: auto;
+    padding: 10px 20px; /* Adjust button padding */
+    font-size: 18px; /* Increase button font size */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  .avatar-preview {
+    width: 120px; /* Increase avatar size */
+    height: 120px; /* Increase avatar size */
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px dashed #ccc;
+    margin-right: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  
+  .avatar-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .camera-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .input-group input[type="text"]{
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  
+  }
+  .pink-button {
+    background-color: pink;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .pink-button:hover {
+    background-color: #ff69b4; /* Adjust hover color */
+  }
+  
+.right-corner {
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    font-family: cursive;
+    color: #d54f6a;
+    font-weight: bold;
+}
+
+.back-button {
+    color: grey;
+    background-color: lightgrey;
+    font-size: large;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background-color: darkgrey;
+}
